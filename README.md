@@ -1,3 +1,3 @@
 # charts
 
-fuck u
+hello github project for charts.

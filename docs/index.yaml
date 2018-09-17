@@ -1,3 +1,62 @@
 apiVersion: v1
-entries: {}
-generated: 2018-09-17T22:36:28.931908957+08:00
+entries:
+  mysql:
+  - appVersion: 5.7.14
+    created: 2018-09-17T22:56:32.105036591+08:00
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: b0a8fd0c677e324a4fc0582c0239a7fe75f80865ac677eff89bcc10e554cc5ad
+    engine: gotpl
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: viglesias@google.com
+      name: viglesiasce
+    name: mysql
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
+    urls:
+    - https://amourlinux.github.io/charts/mysql-0.10.1.tgz
+    version: 0.10.1
+  nginx:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-09-17T22:56:32.10599884+08:00
+    description: A Helm chart for Kubernetes
+    digest: 55652dcd65362a38e9d8ec28dc4bb96d7f0162d84df686d2c31a357db81b64ed
+    name: nginx
+    urls:
+    - https://amourlinux.github.io/charts/nginx-0.1.0.tgz
+    version: 0.1.0
+  redis-ha:
+  - appVersion: 4.0.8-r0
+    created: 2018-09-17T22:56:32.107184461+08:00
+    description: Highly available Redis cluster with multiple sentinels and standbys.
+    digest: 96beedab14ea7797b2d6131722602a4715f886b12aaacf571f47552e6d0a08e2
+    engine: gotpl
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: ikaboubi@gmail.com
+      name: smileisak
+    - email: ianmaddox@google.com
+      name: ianmaddox
+    name: redis-ha
+    sources:
+    - https://github.com/smileisak/docker-images/tree/master/redis
+    - https://github.com/diegocn/docker-images/tree/master/redis
+    urls:
+    - https://amourlinux.github.io/charts/redis-ha-2.2.3.tgz
+    version: 2.2.3
+generated: 2018-09-17T22:56:32.103453089+08:00

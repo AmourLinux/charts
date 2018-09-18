@@ -1,8 +1,19 @@
 apiVersion: v1
 entries:
+  ack-springcloud-eureka:
+  - apiVersion: v1
+    appVersion: 1.5.13.RELEASE
+    created: 2018-09-18T17:44:09.72142454+08:00
+    description: Spring Cloud Eureka Helm chart for Kubernetes on Alibaba Cloud Container
+      Service
+    digest: 7909d1d1332d2548ca261ef6faa121beec364ce3d29ea010409c549231ecca37
+    name: ack-springcloud-eureka
+    urls:
+    - https://amourlinux.github.io/charts/ack-springcloud-eureka-0.1.0.tgz
+    version: 0.1.0
   mysql:
   - appVersion: 5.7.14
-    created: 2018-09-17T22:56:32.105036591+08:00
+    created: 2018-09-18T17:44:09.723158642+08:00
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: b0a8fd0c677e324a4fc0582c0239a7fe75f80865ac677eff89bcc10e554cc5ad
@@ -28,7 +39,7 @@ entries:
   nginx:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-17T22:56:32.10599884+08:00
+    created: 2018-09-18T17:44:09.724414475+08:00
     description: A Helm chart for Kubernetes
     digest: 55652dcd65362a38e9d8ec28dc4bb96d7f0162d84df686d2c31a357db81b64ed
     name: nginx
@@ -37,7 +48,7 @@ entries:
     version: 0.1.0
   redis-ha:
   - appVersion: 4.0.8-r0
-    created: 2018-09-17T22:56:32.107184461+08:00
+    created: 2018-09-18T17:44:09.726750275+08:00
     description: Highly available Redis cluster with multiple sentinels and standbys.
     digest: 96beedab14ea7797b2d6131722602a4715f886b12aaacf571f47552e6d0a08e2
     engine: gotpl
@@ -59,4 +70,4 @@ entries:
     urls:
     - https://amourlinux.github.io/charts/redis-ha-2.2.3.tgz
     version: 2.2.3
-generated: 2018-09-17T22:56:32.103453089+08:00
+generated: 2018-09-18T17:44:09.720039476+08:00
